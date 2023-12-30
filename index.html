@@ -1,1 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social Media Template
+    </title>
+    <link rel="stylesheet" href="css/style.css  ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/fontawesome.min.css"
+        integrity="sha512-d0olNN35C6VLiulAobxYHZiXJmq+vl+BGIgAxQtD5+kqudro/xNMvv2yIHAciGHpExsIbKX3iLg+0B6d0k4+ZA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+        integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+
+            <h3> <i class="fa-solid fa-house" style="margin-right: 10px; color: white;"></i>Logo</h3>
+        </div>
+        <div class="header_icon">
+            <h6><i class="fa-solid fa-earth-oceania"></i></h6>
+            <h6><i class="fa-solid fa-user"></i></h6>
+            <h6><i class="fa-solid fa-envelope"></i></h6>
+            <h6 class="dropdown"><i class="fa-solid fa-bell"></i>
+                <span>3</span>
+                <ul class="dropdown_content">
+                    <li>One New Friend Request</li>
+                    <li>John Doe posted on your wall</li>
+                    <li>Jane likes your post</li>
+                </ul>
+            </h6>
+
+        </div>
+        <div class="user_login">
+            <img src="images/avatar2.png" alt="">
+            <i class="fa-solid fa-bars" onclick="myFunction()"></i>
+        </div>
+    </header>
+    <nav id="nav">
+        <ul>
+            <li>Link1</li>
+            <li>Link2</li>
+            <li>My profile</li>
+        </ul>
+    </nav>
+    <section class="main">
+        <div class="main1">
+            <div class="user_profile">
+                <h3>My Profile
+                </h3>
+                <h6><img src="images/avatar3 (1).png" alt=""></h6>
+                <ul>
+                    <li><i class="fa-solid fa-pencil" style="margin-right: 16px;"></i>Designer, UI</li>
+                    <li><i class="fa-solid fa-house" style="margin-right: 16px;"></i>London, UK</li>
+                    <li><i class="fa-solid fa-cake-candles" style="margin-right: 16px;"></i> April 1, 1988</li>
+                </ul>
+            </div>
+            <div class="main1_card">
+                <ul class="main1_card_details">
+                    <li onclick="showgroup()"><i class="fa-solid fa-circle-notch"></i>My Groups</li>
+                    <ul class="group_details" id="group">
+                        <li>Some text..</li>
+                    </ul>
+                    <li onclick="showevent()"><i class="fa-regular fa-calendar-check"></i>My Events</li>
+                    <ul class="event_details" id="event">
+                        <li>Some text..</li>
+                    </ul>
+                    <li onclick="showphoto()"><i class="fa-solid fa-users"></i>My Photos</li>
+                    <ul class="photo_gallay" id="photo">
+                        <li><img src="images/lights.jpg" alt=""></li>
+                        <li><img src="images/nature (1).jpg" alt=""></li>
+                        <li><img src="images/mountains.jpg" alt=""></li>
+                        <li><img src="images/forest.jpg" alt=""></li>
+                        <li><img src="images/nature (1).jpg" alt=""></li>
+                        <li><img src="images/snow.jpg" alt=""></li>
+                    </ul>
+                </ul>
+            </div>
+            <div class="interests">
+                <h5>Interests</h5>
+                <ul>
+                    <li style="background-color: #303e45; color: white;">News</li>
+                    <li style="background-color: #3a4b53; color: white;">W3Schools</li>
+                    <li style="background-color: #435761;color: white;">Labels</li>
+                    <li style="background-color: #4d636f; color: white;">Games</li>
+                    <li style="background-color: #57707d;color: white;">Friends</li>
+                    <li style="background-color: #607d8b;color: white;">Games</li>
+                    <li style="background-color: #7d97a5;color: white;">Friends</li>
+                    <li style="background-color: #9eb1bb; ">Food</li>
+                    <li style="background-color: #becbd2;">Design</li>
+                    <li style="background-color: #dfe5e8;">Art</li>
+                    <li style="background-color: #f5f7f8 ;">Photos</li>
+                </ul>
+            </div>
+            <div class="hey" id="hey">
+                <button onclick=" hideheybox()"><i class="fa-solid fa-xmark"></i></button>
+                <h6>Hey! </h6>
+                <p>People are looking at your profile. Find out who</p>
+            </div>
+        </div>
+        <div class="main2">
+            <div class="social john">
+                <p style="border-top: none; padding: 0px; opacity: 0.6;">Social Media template by w3.css
+                </p>
+                <input type="text" id="status" name="status" value="Status: Feeling Blue">
+                <button style="margin-top: 15px;"><i class="fa-solid fa-pencil"
+                        style="margin-right: 16px;"></i>Post</button>
+            </div>
+            <div class="john">
+                <div class="john_details">
+                    <div class="john_des">
+                        <img src="images/avatar2.png" alt="">
+                        <h5>John Doe
+                        </h5>
+                    </div>
+                    <span>1 min</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+
+                </p>
+                <div class="john_img">
+                    <div><img src="images/lights.jpg" alt=""></div>
+                    <div><img src="images/nature (1).jpg" alt=""></div>
+                </div>
+                <div class="button">
+                    <button><i class="fa-solid fa-thumbs-up" style="margin-right: 16px;"></i>Like</button>
+                    <button><i class="fa-solid fa-comment" style="margin-right: 16px;"></i>Comment</button>
+                </div>
+
+            </div>
+            <div class="jane john">
+
+                <div class="john_details">
+                    <div class="john_des">
+                        <img src="images/avatar5.png    " alt="">
+                        <h5>Jane Doe
+
+                        </h5>
+                    </div>
+                    <span>16 min</span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+
+
+
+                </p>
+
+                <div class="button">
+                    <button><i class="fa-solid fa-thumbs-up" style="margin-right: 16px;"></i>Like</button>
+                    <button><i class="fa-solid fa-comment" style="margin-right: 16px;"></i>Comment</button>
+                </div>
+
+
+            </div>
+            <div class="jane john">
+
+                <div class="john_details">
+                    <div class="john_des">
+                        <img src="images/avatar6.png    " alt="">
+                        <h5>Angie Jane
+
+
+                        </h5>
+                    </div>
+                    <span>32 min</span>
+                </div>
+                <p>Have you seen this?</p>
+                <img src="images/nature (1).jpg" alt="">
+                <p style="border-top: none;">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+                </p>
+                <div class="button">
+                    <button><i class="fa-solid fa-thumbs-up" style="margin-right: 16px;"></i>Like</button>
+                    <button><i class="fa-solid fa-comment" style="margin-right: 16px;"></i>Comment</button>
+                </div>
+
+
+            </div>
+
+        </div>
+        <div class="main3">
+            <div class="upcoming">
+                <h5>Upcoming Events:
+
+                </h5>
+                <img src="images/forest.jpg" alt="">
+                <h6>Holiday</h6>
+                <p>Friday 15:00</p>
+                <button>Info</button>
+            </div>
+            <div class="upcoming ads">
+                <h5>Friend Request
+                </h5>
+                <h6 style="margin-bottom: 0px;"><img src="images/avatar6.png" alt="" style="width:93px; height:93px;">
+                </h6>
+                <p style="margin-top: 0px;">Jane Doe
+                </p>
+                <ul class="jane_button">
+                    <li class="button1"><i class="fa-solid fa-check"></i></li>
+                    <li class="button2"><i class="fa-solid fa-xmark"></i></li>
+                </ul>
+            </div>
+            <div class="upcoming ads">
+                <h5 style="margin: 15px 0 ;">Ads</h5>
+            </div>
+            <div class="upcoming ads bug">
+                <h5 style="margin: 15px 0 ;"><i class="fa-solid fa-bug"></i></h5>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div style="padding: 16px; background-color: #435761;">
+            <p style=" margin: 10px 0; color: white; font-size: 18px;">Footer
+            </p>
+        </div>
+        <div style="background-color: #303e45 ; padding: 1px 16px;">
+            <p style="font-size: 15px; color: white;">Powered by <a href="" style="color: white;">w3.css</a></p>
+        </div>
+    </footer>
+    <script>
+        function hideheybox() {
+            document.getElementById("hey").style.display = "none";
+        };
+
+        // group
+        let group = 0;
+        function showgroup() {
+            if (group == 1) {
+                document.getElementById("group").style.display = "none";
+                group = 0
+            }
+            else {
+                document.getElementById("group").style.display = "block";
+                group = 1;
+            }
+
+        }
+        // event
+        let event = 0;
+        function showevent() {
+            if (event == 1) {
+                document.getElementById("event").style.display = "none";
+                event = 0
+            }
+            else {
+                document.getElementById("event").style.display = "block";
+                event = 1;
+            }
+
+        }
+        // photo
+        let photo = 0;
+        function showphoto() {
+            if (photo == 1) {
+                document.getElementById("photo").style.display = "none";
+                photo = 0
+            }
+            else {
+                document.getElementById("photo").style.display = "flex";
+                photo = 1;
+            }
+
+        }
+        // navbar
+        let sw = 0;
+        function myFunction() {
+            if (sw == 1) {
+                document.getElementById("nav").style.display = "none";
+                sw = 0;
+            }
+            else {
+                document.getElementById("nav").style.display = "block";
+                sw = 1;
+            }
+        }
+    </script>
+
+</body>
+
+</html>
