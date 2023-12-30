@@ -1,0 +1,689 @@
+.user_login {
+    float: right;
+    padding: 12px 24px;
+    cursor: pointer;
+
+
+}
+
+.header_icon {
+    float: left;
+}
+
+.logo {
+    float: left;
+}
+
+.logo h3 {
+    margin: 0px;
+    padding: 12px 24px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #3a4b53;
+    cursor: pointer;
+}
+
+.logo h3:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.logo h3:hover .svg-inline--fa {
+    color: black;
+}
+
+header {
+    background-color: #4d636f;
+    height: 48px;
+}
+
+.header_icon .svg-inline--fa {
+
+    color: white;
+
+    font-size: 19px;
+}
+
+.header_icon h6 {
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    padding: 14px 24px;
+}
+
+.user_login img {
+    vertical-align: middle;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+}
+
+.user_login:hover {
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.header_icon h6:hover {
+    background-color: white;
+    color: black;
+}
+
+.header_icon h6:hover .svg-inline--fa {
+    color: black;
+}
+
+.main {
+    padding: 16px;
+    background-color: #f5f7f8;
+}
+
+.main1 {
+    width: 30%;
+}
+
+.main3 {
+    width: 20%;
+}
+
+.user_profile {
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 1px 16px;
+}
+
+.user_profile img {
+    width: 106px;
+    height: 106px;
+    border-radius: 50px;
+}
+
+.user_profile ul {
+    padding: 0px;
+    list-style-type: none;
+    margin: 10px 0;
+    border-top: 1px solid #eee;
+}
+
+.user_profile h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+.user_profile ul li {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.user_login {
+    float: right;
+    padding: 12px 24px;
+    cursor: pointer;
+
+
+}
+
+.header_icon {
+    float: left;
+}
+
+.logo {
+    float: left;
+}
+
+.logo h3 {
+    margin: 0px;
+    padding: 12px 24px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #3a4b53;
+    cursor: pointer;
+}
+
+.logo h3:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+.logo h3:hover .svg-inline--fa {
+    color: black;
+}
+
+header {
+    background-color: #4d636f;
+    height: 48px;
+    position: absolute;
+    width: 100%;
+}
+
+.header_icon .svg-inline--fa {
+
+    color: white;
+
+    font-size: 19px;
+}
+
+.header_icon h6 {
+    margin: 0px;
+    float: left;
+    cursor: pointer;
+    padding: 14px 24px;
+}
+
+.user_login img {
+    vertical-align: middle;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+}
+
+.user_login:hover {
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.header_icon h6:hover {
+    background-color: white;
+    color: black;
+}
+
+.header_icon h6:hover .svg-inline--fa {
+    color: black;
+}
+
+.main {
+    padding: 16px;
+    background-color: #f5f7f8;
+}
+
+.main1 {
+    width: 25%;
+}
+
+.mian2 {
+    width: 50%;
+}
+
+.main3 {
+    width: 17%;
+}
+
+.user_profile,
+.interests {
+    background-color: white;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 1px 16px;
+    border-radius: 4px;
+}
+
+.user_profile img {
+    width: 106px;
+    height: 106px;
+    border-radius: 50px;
+}
+
+.user_profile ul {
+    padding: 0px;
+    list-style-type: none;
+    margin: 10px 0;
+    border-top: 1px solid #eee;
+}
+
+.user_profile h3 {
+    font-size: 20px;
+    margin: 10px 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+.user_profile ul li {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.user_profile h6 {
+    text-align: center;
+    margin: 15px 0;
+}
+
+.interests {
+    margin-top: 20px;
+}
+
+.interests ul {
+    padding: 0px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.interests h5 {
+    font-size: 15px;
+    margin: 15px 0;
+    font-weight: 400;
+}
+
+.interests ul li {
+    font-size: 12px;
+    padding: 0px 8px;
+    margin-right: 6px;
+    margin-bottom: 7px;
+}
+
+.hey {
+    background-color: #dfe5e8;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    padding: 0px 16px;
+    position: relative;
+}
+
+.hey h6 {
+    margin: 15px 0;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.hey p {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.hey button {
+    position: absolute;
+    right: 0;
+    border: none;
+    padding: 8px 16px;
+    background-color: #becbd2;
+    cursor: pointer;
+}
+
+.hey button:hover {
+    background-color: #ccc;
+}
+
+.hey button .svg-inline--fa {
+    font-weight: bold;
+}
+
+ul.photo_gallay li {
+    width: 45%;
+    padding: 0px 8px;
+}
+
+ul.photo_gallay li img {
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.main1_card {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    margin-top: 20px;
+}
+
+ul.main1_card_details {
+    padding: 0px;
+    list-style: none;
+    margin: 0px;
+}
+
+ul.photo_gallay {
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    display: none;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+ul.group_details {
+    padding: 0px;
+    list-style: none;
+    display: none;
+}
+
+ul.event_details {
+    display: none;
+}
+
+#hello {
+    display: none;
+}
+
+section.main {
+    display: flex;
+    padding-top: 70px;
+}
+
+.john_des img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    margin-right: 16px;
+}
+
+.john_des {
+    display: flex;
+    align-items: center;
+}
+
+.john_des h5 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.john_details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.john {
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    padding: 16px 16px;
+    margin-top: 20px;
+}
+
+.main2 {
+    padding: 0px 16px;
+    width: 56%;
+}
+
+.john_img {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.john_img div {
+    width: 49%;
+}
+
+.john_img div img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.john p {
+
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    font-size: 15px;
+}
+
+.john_details span {
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.upcoming img,
+img {
+    width: 100%;
+}
+
+.upcoming {
+    background: white;
+    padding: 16px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+
+}
+
+.upcoming h5 {
+    margin: 0px 0 15px 0;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.upcoming h6 {
+    margin: 15px 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+.upcoming p {
+    font-size: 15px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+.upcoming button {
+    background-color: #dfe5e8;
+    border: none;
+    width: 100%;
+    padding: 12px 16px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.upcoming button:hover,
+.john button:hover,
+.jane_button .button1:hover,
+.jane_button .button2:hover,
+ul.main1_card_details li {
+    background-color: #ccc;
+    color: black;
+}
+
+.john button {
+    background-color: #57707d;
+    border: none;
+    padding: 12px 16px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.ads {
+    margin-top: 20px;
+}
+
+.bug {
+    padding: 32px 0;
+}
+
+.bug .svg-inline--fa {
+    font-size: 33px;
+}
+
+.jane_button .button1,
+.jane_button .button2 {
+    background-color: #4CAF50;
+    width: -webkit-fill-available;
+    padding: 8px 16px;
+    text-align: center;
+    color: white;
+}
+
+.jane_button .button2 {
+    background-color: #f44336;
+}
+
+.jane_button {
+    display: flex;
+    opacity: 0.6;
+}
+
+.social {
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.social input#status {
+    width: 97%;
+    padding-left: 15px;
+    height: 35px;
+    font-size: 15px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+ul.main1_card_details li {
+    background: #7d97a5;
+    color: white;
+    padding: 8px 16px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+ul.main1_card_details li .svg-inline--fa {
+    margin-right: 16px;
+}
+
+h6.dropdown {
+    position: relative;
+}
+
+ul.dropdown_content {
+    position: absolute;
+    width: 300px;
+    background: white;
+    display: none;
+    z-index: 1;
+    left: 0px;
+}
+
+h6.dropdown:hover ul.dropdown_content {
+    display: block;
+}
+
+ul.dropdown_content li {
+    padding: 8px 16px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+nav {
+    display: none;
+}
+
+ul.dropdown_content li:hover {
+    background-color: #ccc;
+}
+
+.user_login .svg-inline--fa {
+    display: none;
+}
+
+
+ul.event_details li,
+ul.group_details li,
+ul.photo_gallay li {
+    background-color: white;
+    color: black;
+}
+
+ul.photo_gallay li {
+    width: 48%;
+    padding: 0px;
+}
+
+@media(min-width:601px) {
+    nav {
+        display: none !important;
+    }
+}
+
+@media(max-width:600px) {
+    section.main {
+        display: block;
+    }
+
+    .main1,
+    .main3 {
+        width: 100%;
+    }
+
+    .main2 {
+        width: 100%;
+        padding: 0px;
+    }
+
+    .social.john,
+    .upcoming {
+        margin-top: 20px;
+    }
+
+    .header_icon {
+        display: none;
+    }
+
+
+    .user_login img {
+        display: none;
+    }
+
+    nav {
+        padding-top: 48px;
+        display: block;
+        background-color: #4d636f;
+        color: white;
+        display: none;
+    }
+
+
+    nav ul {
+        margin: 0;
+    }
+
+    nav ul li {
+        padding: 12px 24px;
+        font-size: 18px;
+    }
+
+    nav ul li:hover {
+        background-color: #ccc;
+        color: black;
+    }
+
+    .user_login .svg-inline--fa {
+        display: block;
+        color: white;
+        font-size: 24px;
+    }
+
+    .user_login .svg-inline--fa:hover {
+        color: black;
+    }
+}
+
+h6.dropdown span {
+    color: white;
+    background-color: #4CAF50;
+    padding: 0 8px;
+    border-radius: 50%;
+    float: right;
+    top: 6px;
+    position: absolute;
+}
